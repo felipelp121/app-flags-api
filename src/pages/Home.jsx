@@ -1,9 +1,12 @@
 export function Home() {
     return (
         <div className="home">
-            <section>
+            <section className="searchOptions">
                 <div className="search">
                     <input type="search" name="search" id="find" placeholder="&#x1F50E;&#xFE0E;    Search for a Country..." />
+                </div>
+                <div>
+                    
                 </div>
                 <div className="options">
                     <select id="countrys" name="countrys">
