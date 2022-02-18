@@ -90,8 +90,10 @@ nav img {
 
 .dataCountry {
   width: 100%;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+  row-gap: 40px;
 }
 
 .dataCountryElement {
@@ -129,16 +131,14 @@ nav img {
   font-size: 14px;
 }
 
-@media screen and (min-width: 500px) {
-  /* .darkMode {
-    width: 120px;
-  } */
-}
-
 @media screen and (min-width: 720px) {
   nav h3 {
     width: 100%;
     padding-left: 4.5vw;
+  }
+
+  .darkMode {
+    padding-right: 4.5vw;
   }
 
   .searchOptions {
@@ -163,6 +163,11 @@ nav img {
   .options select {
     width: 80%;
   }
+
+  .dataCountry {
+    grid-template-columns: 48% 48%;
+    margin-left: 2vw;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -177,9 +182,19 @@ nav img {
   .options {
     width: 20vw;
   }
+
+  .dataCountry {
+    grid-template-columns: 31% 31% 31%;
+    margin-left: 3vw;
+    column-gap: 4px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .darkMode {
+    padding-right: 5vw;
+  }
+
   .searchOptions {
     grid-template-columns: 25% auto 20%;
   }
@@ -190,5 +205,11 @@ nav img {
 
   .options {
     width: 15vw;
+  }
+
+  .dataCountry {
+    grid-template-columns: 21% 21% 21% 21%;
+    margin-left: 4vw;
+    column-gap: 2.7%;
   }
 }

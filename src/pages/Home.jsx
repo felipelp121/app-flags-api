@@ -6,7 +6,7 @@ export function Home() {
                     <input type="search" name="search" id="find" placeholder="&#x1F50E;&#xFE0E;    Search for a Country..." />
                 </div>
                 <div>
-                    
+
                 </div>
                 <div className="options">
                     <select id="countrys" name="countrys">
@@ -33,6 +33,49 @@ export function Home() {
                         </div>
 
                     </div>
+
+
+                    {/* ELEMENTOS FAKES */}
+
+                    <div className="dataCountryElement">
+                        <div className="flag">
+                            <img src="./images/brazil.jpg" alt="brazil" />
+                        </div>
+                        <div className="info">
+                            <h5>Brazil</h5>
+                            <p>Population: <span>81.779,900</span></p>
+                            <p>Region: <span>América do Sul</span></p>
+                            <p>Capital: <span>Brasília</span></p>
+                        </div>
+
+                    </div>
+
+                    <div className="dataCountryElement">
+                        <div className="flag">
+                            <img src="./images/brazil.jpg" alt="brazil" />
+                        </div>
+                        <div className="info">
+                            <h5>Brazil</h5>
+                            <p>Population: <span>81.779,900</span></p>
+                            <p>Region: <span>América do Sul</span></p>
+                            <p>Capital: <span>Brasília</span></p>
+                        </div>
+
+                    </div>
+
+                    <div className="dataCountryElement">
+                        <div className="flag">
+                            <img src="./images/brazil.jpg" alt="brazil" />
+                        </div>
+                        <div className="info">
+                            <h5>Brazil</h5>
+                            <p>Population: <span>81.779,900</span></p>
+                            <p>Region: <span>América do Sul</span></p>
+                            <p>Capital: <span>Brasília</span></p>
+                        </div>
+
+                    </div>
+
                 </div>
             </section>
 
