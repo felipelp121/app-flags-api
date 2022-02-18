@@ -165,12 +165,30 @@ nav img {
   }
 }
 
-@media screen and (min-width: 1115px) {
-  /* .home {
-    max-width: 1440px;
-  } */
+@media screen and (min-width: 1024px) {
+  .searchOptions {
+    grid-template-columns: 30% auto 23%;
+  }
 
-  /* .darkMode {
-    width: 150px;
-  } */
+  .search input {
+    width: 25vw;
+  }
+
+  .options {
+    width: 20vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .searchOptions {
+    grid-template-columns: 25% auto 20%;
+  }
+
+  .search input {
+    width: 20vw;
+  }
+
+  .options {
+    width: 15vw;
+  }
 }
