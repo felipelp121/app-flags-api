@@ -9,6 +9,7 @@
 body {
   font-weight: 600;
   background-color: hsl(207, 26%, 17%);
+  overflow-x: hidden;
 }
 nav {
   width: 100%;
